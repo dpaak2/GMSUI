@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>login</title>
+<style>
+.text-center{
+text-align: center;
+}
+.border-black{
+border: 1px solid black;
+}
+.width-30pro{
+width: 30%;
+}
+.text-deco-none{
+text-decoration: none;
+}
+.width-100pro{
+width: 100%;
+}
+.margin-center{
+margin: 0 auto;
+}
+.busy-color-red{
+color: #ce4a4a;
+}
+.busy-backgroundcolor-red{
+background-color: #ce4a4a;
+}
+.busy-color-blue{
+color: #3c89bc;
+}
+.busy-backgroundcolor-blue{
+background-color: #3c89bc;
+}
+.busy-color-white{
+color: white;
+}
+</style>
+</head>
+<body>
+<div id="wrapper" class="width-100pro">
+<!-- 로그인 화면 -->
+	<h1 style="font-family: bold; text-align: center;">LONGIN</h1>
+	<hr />
+<div id="container" style="width: 500px;" class="margin-center">
+	<img src="../img/login.png" alt="" /><br />
+	<mark style="color: red;">*ID는 숫자포함 8자 이내</mark><br />
+<!-- 	//display: inline-block; -->
+	<span style="color: blue; font-size: 30px;">ID</span>
+	<input type="text" placeholder="ID" />
+	<br />
+	<span style="color: blue; font-size: 30px;">PASSWORD</span>
+	<input type="text" placeholder="PASSWORD" /><br />
+	<button class="busy-backgroundcolor-blue busy-color-white" style="width: 100px; padding-top: 5px; padding-bottom: 5px; font-size: 30px;" onclick="window.location.href='mypage.html'">login</button>
+	<button class="busy-backgroundcolor-red busy-color-white" style="width: 100px; padding-top: 5px; padding-bottom: 5px; font-size: 30px;" onclick="window.location.href='../index.html'">cancel</button>
+</div>
+</div>
+</body>
+</html>
