@@ -4,60 +4,47 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>메인</title>
-<style>
-.text-center{
-text-align: center;
-}
-.border-black{
-border: 1px solid black;
-}
-.width-30pro{
-width: 30%;
-}
-.text-deco-none{
-text-decoration: none;
-}
-.margin-auto{
-margin: 0 auto;
-}
-.list-style-none{
-list-style: none;
-}
-.border-collapse{
-border-collapse: collapse;
-}
-.width-100pro{
-width: 100%;
-}
-.busy-color-red{
-color: #ce4a4a;
-}
-.busy-color-blue{
-color: #3c89bc;
-}
-
-</style>
+<!-- <style>@IMPORT url("css/common.css"); </style> -->
+<link rel="stylesheet" href="css/common.css" /><!--class로 준 css  -->
+<link rel="stylesheet" href="css/member.css" /> <!--id로 주는 css  -->
 </head>
 <body>
 	<div id="wrapper" class="width-100pro">
-		<h1 class="text-center">INDEX</h1>
+		<img src="img/homebutton.jpg" alt="" />
+		<h1 class="gms-text-center" >성적관리 시스템[GMS]</h1>
 		<hr />
-		<table class="margin-auto border-collapse" style="width: 80%;">
-			<tr>
-				<td class="border-black text-align text-center" style="width: 30%;"><a class="text-deco-none" href="member/login.html">로그인</a></td>
-				<td class="border-black text-align text-center" style="width: 30%;"><a class="text-deco-none" href="member/join.html">회원가입</a></td>
-				<td class="border-black text-align text-center" style="width: 30%;"><a class="text-deco-none" href="board/board_list.html">게시판</a></td>
+		<table id="index-tab">
+			<tr id="index-tab-tr">
+				<td>학생관리</td>
+				<td>성적관리</td>
+				<td>게시판</td>
 			</tr>
 			
 			<tr>
-				<td></td>
-				<td></td>
 				<td>
-					<ul class="list-style-none">
-					<li class="border-black text-align text-center">게시글 쓰기</li>
-					<li class="border-black text-align text-center">게시글 목록</li>
-					<li class="border-black text-align text-center">게시글 수정</li>
-					<li class="border-black text-align text-center">게시글 삭제</li>
+					<ul class="index-ul" class="gms-list-style-none">
+						<li><a href="member/member_login.html">로그인</a></li>
+						<li><a href="member/member_add.html">학생 추가</a></li>
+						<li><a href="member/member_list.html">학생 목록</a></li>
+						<li><a href="member/member_update.html">학생 목록</a></li>
+						<li><a href="member/member_delete.html">학생 목록</a></li>
+					</ul>
+				</td>
+				<td>
+					 <ul class="index-ul" class="gms-list-style-none index-ul">
+						<li><a href="grade/grade_add.html">성적 입력</a></li>
+						<li><a href="grade/grade_list.html">성적 목록</a></li>
+						<li><a href="grade/grade_update.html">성적 수정</a></li>
+						<li><a href="grade/grade_delete.html">성적 삭제</a></li>
+					 </ul>
+				</td>
+				<td>
+					<ul class="index-ul"  class="gms-list-style-none">
+					<li><a class="gms-text-deco-none" href="board/board_wirte.html">게시글 쓰기</a></li>
+					<li><a class="gms-text-deco-none" href="board/board_list.html">게시글 목록</a></li>
+					<li><a href="board/board_update.html">게시글 수정</a></li>
+					<li><a href="board/board_delete.html">게시글 삭제</a></li>
+					<li><a href="board/board_delete.html">게시글 삭제</a></li>
 				</ul>
 				</td>
 			

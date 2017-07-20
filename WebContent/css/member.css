@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+
+@IMPORT "common.css";
+/* index css */
+#index-tab {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.index-ul {
+	width: 300px;
+	list-style: none;
+}
+
+.index-ul>li {
+	border: 1px solid black;
+	text-align: center;
+	
+}
+
+.index-ul>li>a {
+	text-decoration: none;
+}
+
+#index-tab-tr>td {
+	border: 1px solid black;
+	text-align: center;
+}
+/*login css  */
+#login-button_submit{
+	width: 300px;
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+	font-size: 30px;
+	background-color: #3c89bc;
+	color: white;;
+}
+#login-button_cancle{
+	width: 300px;
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+	font-size: 30px;
+	background-color: #ce4a4a;
+	color: white;
+}
+#login_id{
+	color: blue;
+	font-size: 30px;
+}
+
+#login_pass{
+	color: blue;
+	font-size: 30px;	
+}
+
+/*join css*/
+#join_id{
+	width: 100px; 
+	display: inline-block;
+}
+#join_pass{
+	width: 100px; 
+	display: inline-block;
+}
+#join_name{
+	width: 100px;
+	display: inline-block;
+}
+#join_birth{
+	width: 100px; 
+	display: inline-block;
+}
+#join_email{
+	width: 100px; 
+	display: inline-block;
+}
+#join_yes_button{
+	background-color: #3c89bc; color: white; font-size: 15px; width: 130px;
+}
+#join_no_button{
+	background-color: #ce4a4a; color: white; font-size: 15px; width: 130px;
+}
+
+
+
