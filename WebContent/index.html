@@ -7,17 +7,21 @@
 <!-- <style>@IMPORT url("css/common.css"); </style> -->
 <link rel="stylesheet" href="css/common.css" /><!--class로 준 css  -->
 <link rel="stylesheet" href="css/member.css" /> <!--id로 주는 css  -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-	<div id="wrapper" class="width-100pro">
+	<div id="wrapper" >
+	<header>
 		<img src="img/homebutton.jpg" alt="" />
 		<h1 class="gms-text-center" >성적관리 시스템[GMS]</h1>
 		<hr />
-		<table id="index-tab">
+	</header>
+		<div id="container">
+		<table id="index-tab" >
 			<tr id="index-tab-tr">
-				<td>학생관리</td>
-				<td>성적관리</td>
-				<td>게시판</td>
+				<th><i class="glyphicon glyphicon-user"></i>학생관리</th>
+				<th><i class="glyphicon glyphicon-cloud"></i>성적관리</th>
+				<th><i class="glyphicon glyphicon-thumbs-up"></i>게시판</th>
 			</tr>
 			
 			<tr>
@@ -26,8 +30,8 @@
 						<li><a href="member/member_login.html">로그인</a></li>
 						<li><a href="member/member_add.html">학생 추가</a></li>
 						<li><a href="member/member_list.html">학생 목록</a></li>
-						<li><a href="member/member_update.html">학생 목록</a></li>
-						<li><a href="member/member_delete.html">학생 목록</a></li>
+						<li><a href="member/member_update.html">학생 수정</a></li>
+						<li><a href="member/member_delete.html">학생 삭제</a></li>
 					</ul>
 				</td>
 				<td>
@@ -50,6 +54,15 @@
 			
 			</tr>
 		</table>
+		</div>
+		<hr />
+		<footer >
+		<div>
+			<p>Posted by: hayun kim</p>
+			<p>Contact information: <a href="mailto:someone@example.com">
+			someone@hanbit.com</a>.</p>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>

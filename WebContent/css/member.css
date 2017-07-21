@@ -4,7 +4,9 @@
 /* index css */
 #index-tab {
 	width: 80%;
+	height:50%;
 	margin: 0 auto;
+	border: 2px solid blue;
 }
 
 .index-ul {
@@ -21,10 +23,25 @@
 .index-ul>li>a {
 	text-decoration: none;
 }
-
-#index-tab-tr>td {
+#index-tab-tr>th {
+	
 	border: 1px solid black;
 	text-align: center;
+}
+
+#index-tab-tr>td {
+	height:25px;
+	padding:3%;
+	border: 1px solid black;
+	text-align: center;
+}
+/*member_list*/
+#member_list_tab{ border width: 90%;margin: 0 auto;}
+#member_list_tab th{
+	 background-color: yellow; border-bottom: 1px solid black; height: 40px;
+}
+#member_list_tab td{
+	border-bottom: 1px solid #808080; height:40px; text-align: center;
 }
 /*login css  */
 #login-button_submit{
