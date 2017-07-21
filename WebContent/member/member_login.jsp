@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!doctype html>
+<html lang="ko">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +12,9 @@
 <div id="wrapper">
 <header>
 <!-- 로그인 화면 -->
-<a href="../index.html"><img src="../img/homebutton.jpg" alt="" /></a>
+<a href="../index.jsp"><img src="../img/homebutton.jpg" alt="" /></a>
 	<h1 id="title">LONGIN</h1>
-<a id="go_main" href="../index.html">메인으로 가기</a><br />
+<a id="go_main" href="../index.jsp">메인으로 가기</a><br />
 	<hr />
 </header>
 <div id="container">
@@ -26,8 +27,8 @@
 	<br />
 	<span id="login_pass">PASSWORD</span>
 	<input type="text" placeholder="PASSWORD" /><br />
-	<button id="login-button_submit" onclick="window.location.href='member_detail.html'">login</button>
-	<button id="login-button_cancle" onclick="window.location.href='../index.html'">cancel</button>
+	<button id="login-button_submit" onclick="window.location.href='member_detail.jsp'">login</button>
+	<button id="login-button_cancle" onclick="window.location.href='../index.jsp'">cancel</button>
 </form>	
 </div>
 </div>
