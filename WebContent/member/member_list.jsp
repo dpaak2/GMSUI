@@ -1,20 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!doctype html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MEMBER LIST</title>
-<link rel="stylesheet" href="../css/member.css" />
-</head>
-<body>
-<div id="wrapper">
-<header>
-<a href="../index.jsp"><img src="../img/homebutton.jpg" alt="" /></a>
-<h1 id="title">MEMBER LIST</h1>
-<a id="go_main" href="../index.jsp">메인으로 가기</a><br />
-<hr />
-</header>
+<%@ include file="member_head.jsp" %>
+<%@ include file="member_service.jsp"%>
 <div id="container">
 <!--id, pw, ssn,name,regedate,email,major,subject-->
 <table id="member_list_tab">
@@ -70,7 +56,11 @@
 	</tr>
 </table>
 </div>
-</div>
+<%@ include file="../common/footer.jsp"%>
 
-</body>
-</html>
+
+
+
+
+
+

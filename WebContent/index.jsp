@@ -56,13 +56,6 @@
 		</table>
 		</div>
 		<hr />
-		<footer >
-		<div>
-			<p>Posted by: hayun kim</p>
-			<p>Contact information: <a href="mailto:someone@example.com">
-			someone@hanbit.com</a>.</p>
-			</div>
-		</footer>
-	</div>
-</body>
-</html>
+	<%@ include file="common/footer.jsp"%>	
+	
+	
