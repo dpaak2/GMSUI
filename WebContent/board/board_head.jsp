@@ -1,7 +1,7 @@
 <%@page import="java.text.SimpleDateFormat"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file="../common/common_service.jsp" %>
-<%@ page import="com.gms.web.util.Clock" %>
+<%@ page import="java.text.SimpleDateFormat, java.util.Date" %>
 <!doctype html>
 <html lang="ko">
 <head>
@@ -14,6 +14,6 @@
 <div id="wrapper">
 <a href="../index.jsp"><img src="../img/homebutton.jpg" alt="" /></a>
 <h1 id="title">게시판</h1>
-<%=new Clock().getNow() %>  <!--expression 전환  -->
+<%= new SimpleDateFormat("yyyy").format(new Date())%>  <!--expression 전환  -->
 <a id="go_main" href="../index.jsp">메인으로 가기</a><br />
 <hr />

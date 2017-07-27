@@ -98,5 +98,20 @@
 	background-color: #ce4a4a; color: white; font-size: 15px; width: 130px;
 }
 
+/*member search*/
+#member_search_box{	width: 300px; margin: 0 auto;}
 
-
+/*member detail*/
+#member_detail_tab{
+	width: 70%; border: 1px solid #808080; margin: 0 auto;
+}
+#member_detail_tab td{
+	border: 1px solid #808080; height: 30px;
+}
+#member_img{
+	width: 100px;
+	height: 100px;
+}
+.member_detail_td{
+	width: 30%;
+}

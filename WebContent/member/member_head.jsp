@@ -14,6 +14,6 @@
 <header>
 <a href="../index.jsp"><img src="<%=headRoot(request)%>/img/homebutton.jpg" alt="" /></a>
 <h1 id="title">학생관리</h1>
-<a id="go_main" href="../index.jsp">메인으로 가기</a><br />
+<a id="go_main" href="<%=request.getContextPath()%>= %>/common/main.jsp">메인으로 가기</a><br />
 <hr />
 </header>

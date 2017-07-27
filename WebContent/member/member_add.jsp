@@ -3,7 +3,7 @@
 <%@ include file="member_service.jsp"%>
 <div id="container" class="margin-center" style="width: 500px;">
 <img src="../img/joinimg.jpg" alt="" />
-<form id="join_form" action="">
+<form id="join_form" action="<%= headRoot(request)%>/member/service_add.jsp">
 <fieldset>
 <legend>JOIN INFORMATION</legend>
 <h3>학생 정보</h3>
