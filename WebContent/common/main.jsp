@@ -1,8 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file="../member/member_head.jsp" %>
 <%@ include file="../member/member_service.jsp" %>
-<%@ include file="../constants/db.jsp" %>
-<%@ page import="java.sql.*" %>
 <%
 Class.forName(ORACLE_DRIVER);
 String id=request.getParameter("id");
@@ -31,7 +29,7 @@ if(rs.next()){
 					<ul class="index-ul" class="gms-list-style-none">
 						<li><a href="<%=root(request)%>/member/member_login.jsp">로그인</a></li>
 						<li><a href="<%=root(request)%>/member/member_add.jsp">학생 추가</a></li>
-						<li><a href="<%=root(request)%>/member/member_list.jsp">학생 목록</a></li>
+						<li><a href="<%=root(request)%>/member/member_list.jsp?action=list">학생 목록</a></li>
 						<li><a href="<%=root(request)%>/member/member_search.jsp">학생 상세정보</a></li>
 						<li><a href="<%=root(request)%>/member/member_update.jsp">학생 수정</a></li>
 						<li><a href="<%=root(request)%>/member/member_delete.jsp">학생 삭제</a></li>

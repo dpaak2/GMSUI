@@ -1,8 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.text.SimpleDateFormat, java.util.Date" %>
-<%@ include file="../constants/db.jsp" %>
-<%@ page import="java.sql.*"%>
-<%@include file="/member/member_head.jsp" %>
+<%@include file="member/member_head.jsp" %>
 <div id="container">
 	<img src="img/login.png" alt="" /><br />
 	<mark style="color: red;">*ID는 숫자포함 8자 이내</mark><br />

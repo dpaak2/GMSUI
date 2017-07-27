@@ -19,7 +19,7 @@ switch(option){
 			%>
 			<script>
 			alert('이름 검색 결과');
-			location.href="<%= headRoot(request)%>/member/member_list.jsp?name=<%=search%>";
+			location.href="<%=request.getContextPath()%>/member/member_list.jsp?action=search&name=<%=search%>";
 			</script>
 			<%
 			break;

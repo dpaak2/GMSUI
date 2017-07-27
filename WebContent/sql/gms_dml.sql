@@ -60,4 +60,37 @@ select id from Member;
 
 select * from member;
 
+ INSERT INTO Major (major_id, title) VALUES ('econimics','경제학');
+ INSERT INTO Major (major_id, title) VALUES ('tourism','관광학');
+ INSERT INTO Major (major_id, title) VALUES ('art','미술학');
+select * from Major;
 
+update Subject set major_id = 'computer';
+ INSERT INTO Subject (subj_id, title) VALUES ('java','자바');
+ INSERT INTO Subject (subj_id, title) VALUES ('c','c언어');
+ INSERT INTO Subject (subj_id, title) VALUES ('javascript','자스');
+ INSERT INTO Subject (subj_id, title) VALUES ('sql','sql');
+ INSERT INTO Subject (subj_id, title) VALUES ('css','css');
+ INSERT INTO Subject (subj_id, title) VALUES ('html','HTML');
+ INSERT INTO Subject (subj_id, title) VALUES ('python','파이썬');
+ select * from Subject;
+ 
+ update Member set major_id = 'computer';
+ update Member set profile = 'defaultimg.jpg';
+ update Member set password = '1' where id='cho';
+ update Member set ssn = '890505-123456' where id='cho';
+ update Member set ssn = '870605-123456' where id='dpqk';
+
+ 
+  select * from Member;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
